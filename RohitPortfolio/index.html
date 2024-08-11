@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>MyportFolio - A Simple & Clean Portfolio Template For Developers</title>
+  <meta name="description" content="Wowfolio - A Simple & Clean Portfolio Template For Developers" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="assets/OIP.jpg"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text" style="color: aliceblue;">ROHIT KALSARIYA</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projects </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
+  </header>
+
+  <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div>
+  <!---->
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hello 👋</span>
+          <span class="heading-primary__main">
+            I'm Rohit Kalsariya! <br> Full Stack Developer Building Awesome Webapps And Websites That Powers The
+            Internet
+          </span>
+        </h1>
+        <button class="btn btn-theme home-hero__btn-theme"> <a href="./index.html#projects"> Projects </a></button>
+        <button class="btn btn-inv home-hero__btn-theme"><a href="./index.html#contact"> Contact </a></button>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About 🦄</span>
+        <span class="heading-secondary__main">
+          Here you will find more information about me, what I do, and list of my current skills in programming
+      </h2>
+      <section class="experience" id="experience">
+        <div class="experience__container">
+          <h2 class="heading-secondary experience__heading">Experience</h2>
+          <div class="experience__list">
+            <!-- Experience Item 1 -->
+            <div class="experience__item">
+              <div class="experience__item-header">
+                <h3 class="experience__item-title">Android Developer Intern</h3>
+                <p class="experience__item-company">Prodigy InfoTech</p>
+                <p class="experience__item-date">June 2024 - July 2024</p>
+              </div>
+              <p class="experience__item-description">
+                Engaged in Android development, contributing to app development and enhancement.
+              </p>
+            </div>
+            <!-- Experience Item 2 -->
+            <div class="experience__item">
+              <div class="experience__item-header">
+                <h3 class="experience__item-title">Web Developer Intern</h3>
+                <p class="experience__item-company">TechnoGuide Infosoft Pvt. Ltd.</p>
+                <p class="experience__item-date">June 2023 - July 2023</p>
+              </div>
+              <p class="experience__item-description">
+                Focused on web development tasks while working remotely from Gujarat, India. Contributed to feature development and maintenance.
+              </p>
+            </div>
+            <!-- Experience Item 3 -->
+            <div class="experience__item">
+              <div class="experience__item-header">
+                <h3 class="experience__item-title">Team Leader</h3>
+                <p class="experience__item-company">Alpha Vidhya Sankul</p>
+                <p class="experience__item-date">May 2019 - May 2021</p>
+              </div>
+              <p class="experience__item-description">
+                Led a team, fostering team spirit and guiding the team effectively on-site in Gujarat. Enhanced leadership and project management skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                My name is Rohit Kalsariya, and I am from Junagadh.
+
+               
+                I am currently pursuing a Bachelor of Technology (BTech) in Computer Software Engineering at Birla
+                Vishvakarma Mahavidyalaya, where I have been studying since July 2021 and will complete my degree in
+                July 2025. My coursework has equipped me with skills in software development, object-oriented
+                programming (OOP), Web Development , Operating System ,Machine learning and more. Prior to this, I completed my higher secondary education at Alpha Vidhya
+                Sankul, where I specialized in Mathematics and Computer Science, graduating with an impressive score of
+                97.45% in May 2021.
+              </span>
+              <span>
+                I am a Java Full Stack Developer with skills in Java, JSP, JSF, Hibernate, Spring Framework, Spring MVC,
+                Spring Boot, and Postman API. I specialize in the analysis, design, development, maintenance, and
+                implementation of enterprise, banking systems, web, and client-server applications using Java/J2EE
+                technologies and object-oriented technology. Additionally, I have knowledge in MERN stack development,
+                which includes AngularJS, Express, Node.js, and MongoDB.
+              </span>
+              <span>
+                The individual has gained valuable experience through various roles in the tech industry. Currently,
+                they are working as an Android Developer intern at Prodigy InfoTech, where they have been involved in
+                Android development since June 2024. Prior to this, they completed a brief internship as a Web Developer
+                at TechnoGuide Infosoft Pvt. Ltd. in June 2023, focusing on web development while working remotely from
+                Gujarat, India. Earlier in their career, they served as a Team Leader at Alpha Vidhya Sankul from May
+                2019 to May 2021. In this role, they honed their leadership skills, fostering team spirit and guiding
+                their team effectively on-site in Gujarat.
+
+
+              </span>
+            </p>
+            <button class="btn btn-theme about__btn-theme">Projects</button>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">Advance Java</li>
+              <li class="about__skill">html</li>
+              <li class="about__skill">css</li>
+              <li class="about__skill">javascript</li>
+
+              <li class="about__skill">SpringBoot</li>
+
+              <li class="about__skill">react</li>
+              <li class="about__skill">node</li>
+              <li class="about__skill">MongoDB</li>
+              <li class="about__skill">Mysql</li>
+              <li class="about__skill">git</li>
+              <li class="about__skill">vscode</li>
+              <li class="about__skill">linux</li>
+              <li class="about__skill">Angular</li>
+              <li class="about__skill">node</li>
+              
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-react-original"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-sass-original"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-nodejs-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-git-plain"></i>
+      </li>
+
+      <li class="skills-showcase__list-item">
+        <i class="devicon-android-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-python-plain"></i>
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects 🛠️</span>
+        <span class="heading-secondary__main">
+          Here you will find some of the personal projects that I created with the project details
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <!-- <div class="projects__list-item-img-cont">
+                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
+              </div> -->
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Quick pay
+
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  • Jsp | Servlet | Springboot | Spring Security
+                  <span></span> • Made a Small website Dynamic.</span>
+                <span>• Implemented operations like deposits and
+                  withdrawals. Added numerous banking related functions.</span>
+                <span>• Developed a banking solution for banks to
+                  manage customer accounts.</span>
+                </span>
+                <!-- <br />
+                  <br /> -->
+
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                <a href="https://github.com/Rk87580/Quickpay">Source Code</a>
+              </button>
+              <!-- <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <!-- <div class="projects__list-item-img-cont">
+                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
+              </div> -->
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Spotify Clone
+
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>• HTML | CSS | JavaScript</span>
+                <span>• Website is responsive for all devices. </span>
+                <span>• Users can play the different album’s songs.</span> <span>• Users can move the seek bar and can
+                  move
+                  back and forth in the playlist.</span>
+                <span>• Users can see the duration of the song</span>
+
+                <button class="btn btn-theme projects__btn-theme">
+                  <a href="https://github.com/Rk87580/">Source Code</a>
+                </button>
+
+
+
+
+
+
+
+                <!-- <br />
+                  <br /> -->
+                <!-- <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span> -->
+              </p>
+
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <!-- <div class="projects__list-item-img-cont">
+                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
+              </div> -->
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                The Programming quiz
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>• HTML | CSS | JavaScript | php | Mysql</span>
+                <span>•Login and Sign up For student and Teacher</span>
+                <span>• Website is responsive for all devices. </span>
+                <span>•Scoreboard based on performance.</span>
+                <span>• Duration for quiz</span>
+                <span>• Add multiple Question and option Answer</span>
+
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                <a href="https://github.com/Rk87580/The-Programming-quiz">Source Code</a>
+              </button>
+              <button class="btn btn-theme projects__btn-theme">
+                <a href="https://github.com/Rk87580/">Other Project</a>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contact 📞</span>
+        <span class="heading-secondary__main">
+          Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <form class="contact__form" onsubmit="sendEmail(); return false;">
+          <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Name</label>
+              <input placeholder="Enter Your Name" type="text" id="name" class="contact__form-field-input" required />
+          </div>
+          <div class="contact__form-field">
+              <label for="email" class="contact__form-field-label">Email</label>
+              <input placeholder="Enter Your Email" type="email" id="email" class="contact__form-field-input" required />
+          </div>
+          <div class="contact__form-field">
+              <label for="phone" class="contact__form-field-label">Phone Number</label>
+              <input placeholder="Enter Your Phone Number" type="tel" id="phone" class="contact__form-field-input" required />
+          </div>
+          <div class="contact__form-field">
+              <label for="message" class="contact__form-field-label">Message</label>
+              <textarea placeholder="Enter Your Message" id="message" cols="30" rows="10" class="contact__form-field-input" required></textarea>
+          </div>
+          <button type="submit" class="contact__form-submit">Submit</button>
+      </form>
+      
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="https://github.com/Rk87580" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <!-- <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a> -->
+          <!-- <a href="mailto:kalsariyarohit62@gmail.com" class="main-footer__social-link">
+            <img src="./assets/icons8-email(1).png" alt="Email" class="main-footer__social-link-icon" />
+        </a> -->
+        
+          <a href="https://www.linkedin.com/in/rohit-kalsariya-5a4438263/" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          <!-- If you can give me some credits or shoutout here by linking to my website, then that will help me a lot :) -->
+          <!-- <a target="_blank" href="https://github.com/rammcodes/wowfolio">WowFolio</a> Open-Source Template -->
+          . Made by
+          <a target="_blank" href="kalsariyarohit062@gmail.com">Rohit Kalsariya</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
